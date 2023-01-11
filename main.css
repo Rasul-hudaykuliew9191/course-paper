@@ -1,0 +1,1131 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1920px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+
+/* course_info */
+.course{
+    position: relative;
+    display: block;
+    max-width: 1920px;
+    max-height: 48px;
+    list-style: none;
+}
+
+.course_info{
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+
+    display: flex;
+    flex-direction: row;
+    gap: 69px;
+    border: none;
+    background-color: #12161C;
+    color: #FFFFFF;
+    list-style: none;
+
+    padding: 15px 669px 14px 164px;
+}
+.course_info a {
+    color: red;
+    text-decoration: none;
+}
+/* .course_info li a:nth-child(n2) {
+    color:red;
+} */
+.course_info li:last-child a{
+    color:green;
+}
+
+main{
+    background-color: #689ED4;
+}
+
+/* header */
+header {
+    width: 100%;
+}
+
+.conteyner{
+    max-width: 1920px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 160px;
+}
+
+.logo_image{
+    width: 164px;
+    height: 51px;
+}
+
+.header_menu {
+    width: 55%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+    
+}
+.header_menu ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.header_menu a {
+    list-style: none;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.tel_number::before {
+    content: "" ;
+    background-image: url(icons/tel.png);
+    width: 21px;
+    height: 29px;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.tel_number{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+}
+.header_menu hr{
+    width: 1px;
+    height: 17px;
+    color: #FFFFFF;
+}
+
+.header_menu i {
+    width: 16px;
+    height: 16px;
+    color: #FFFFFF;
+}
+
+.header_language{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* Оказание полного спектра услуг в области недропользования */
+.provision_of_services{
+    background: linear-gradient(180deg, #5B7BB7 0%, #6196CB 100%);    
+    
+}
+.provision_of_services__wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 74px;
+    padding: 143px 0px 217px 160px; 
+}
+
+.provision_of_services_conteyner{
+    width: 50%;
+}
+
+.provision_of_services_title h1 {
+    max-width: 895px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 57px;
+    line-height: 55px;
+    color: #FFFFFF;
+}
+.provision_of_services_title p {
+    max-width: 813px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.provision_of_services_list{
+    max-width: 813px;
+    max-height: 40px;
+    display: flex; 
+    flex-direction: row;
+    color: #C8D7EB;
+    list-style: none;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    margin-top: 40px;
+}
+
+.provision_of_services_list hr {
+    width: 1px;
+    height: 13px;
+    color: #C8D7EB;
+    margin: 0px 10px 0px 14px;
+}
+
+.provision_of_services_make_an_application_btn{
+    width: 214px;
+    height: 56px;
+    margin-top: 38px;
+    background: #2797FF;
+    z-index: 1;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+}
+
+.provision_of_services_image{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    max-width: 633px;
+}
+
+.provision_of_services_main_image{
+    width: 100%;
+    display: flex;
+}
+
+.provision_of_services_main_icon{
+    position: absolute;
+    top: 147px;
+    left: 269px;
+    width: 90px;
+    height: 90px;
+    border: 6px solid #FFFFFF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.provision_of_services_main_icon img{
+    width: 32px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+/* блок о компании */
+
+.obout_company{
+    background-color: #689ED4;
+}
+
+.obout_company_conteyner{
+    padding: 147px 161px 0px 160px;
+    margin-bottom: 125px;
+}
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 89px;
+    padding-bottom: 94px;
+}
+
+.obout_company_logo_image img{
+    width: 362px;
+    height: 392px;
+}
+
+.logo_paragraf{
+    max-width: 1092px;
+    color: #FFFFFF;
+}
+
+.logo_paragraf h2{
+    width: 100%;
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    line-height: 46px;
+    margin-bottom: 20px;
+}
+
+.logo_paragraf p{
+    width: 100%;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+.workers{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 37px;
+}
+
+.worker_1{
+    max-width: 508px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+}
+.worker_2{
+    max-width: 508px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+}
+.worker_3{
+    max-width: 508px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+}
+
+
+.workers_text{
+    color: #FFFFFF;
+}
+
+.workers_text h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
+.workers_text p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.principle_of_our_work{
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    line-height: 46px;
+    text-align: center;
+    color: #FFFFFF;
+    display: block;
+    justify-content: center;
+}
+
+/* виды работы */
+
+
+/* буровые работы */
+.kinds_of_work{
+    max-width: 1920px;
+}
+.kinds_of_work_conteyner{
+    max-width: 1599px;
+    max-height: 1019px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 59px 160px 0px 160px;
+}
+
+.drilling_operations{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.drilling_operations_image{
+    max-width: 700px;
+}
+
+.drilling_operations_text{
+    max-width: 800px;
+    width: 100%;
+    color: #FFFFFF;
+}
+.drilling_operations_text h2{
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    line-height: 46px;
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+
+.drilling_operations_text p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+.drilling_operations hr {
+    width: 4px;
+    height: 32px;
+    color: #FFFFFF;
+    border: none;
+    background: #FFFFFF;
+    margin: 18px 10px 0px 57px;
+}
+
+.drilling_operations_btn{
+    width: 237px;
+    height: 56px;
+    background: #2797FF;;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+/* Геологоразведочные работы */
+.geological_exploration_works_conteyner{
+    max-width: 1920px;
+    display: flex;
+    flex-direction: row;
+    padding: 59px 160px 0px 160px;
+}
+.geological_exploration_works{
+    max-width: 1599px;
+    max-height: 1019px;
+    display: flex;
+    flex-direction: row;
+    gap: 81px;
+}
+
+.geological_exploration_works{
+    display: flex;
+    justify-content: space-between;
+}
+
+.geological_exploration_works_image{
+    width: 700px;
+    display: flex;
+    order: 1; 
+}
+
+.geological_exploration_works_text{
+    max-width: 800px;
+    color: #FFFFFF;
+    
+}
+.geological_exploration_works_text h2{
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    line-height: 46px;
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+
+.geological_exploration_works_text p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+
+    margin-bottom: 20px;
+}
+
+.geological_exploration_works hr {
+    width: 4px;
+    height: 32px;
+    color: #FFFFFF;
+    border: none;
+    background: #FFFFFF;
+    margin: 18px -73px 0px 0px;
+}
+
+.geological_exploration_works_btn{
+    width: 237px;
+    height: 56px;
+    background: #2797FF;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+/* Научно-исследовательские работы */
+.research_works_conteyner{
+    max-width: 1599px;
+    max-height: 1019px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.research_works_conteyner{
+    max-width: 1599px;
+    max-height: 1019px;
+    margin: 59px 160px 0px 160px;;
+}
+
+.research_works{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.research_works_image{
+    width: 739px;
+    height: 457px;
+}
+
+.research_works_text{
+    width: 50%;
+    color: #FFFFFF;
+}
+.research_works_text h2{
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    line-height: 46px;
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+
+.research_works_text p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+
+    margin-bottom: 20px;
+}
+
+.research_works hr {
+    width: 4px;
+    height: 32px;
+    color: #FFFFFF;
+    border: none;
+    background: #FFFFFF;
+    margin: 18px 10px 0px 57px;
+}
+
+.research_works_btn{
+    width: 237px;
+    height: 56px;
+    background: #2797FF;;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+/* информация почему minerals operating */
+
+.infor_minerals_operating h2 {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    line-height: 46px;
+    margin: 160px 0px 56px 0px;
+}
+
+.infor_minerals_operating_conteyner{
+    max-width: 1608px;
+    max-height: 585px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 35px;
+    margin-left: 160px;
+    margin-bottom: 161px;
+}
+
+.infor_minerals_operating_wrapper{
+    width: 510px;
+    height: 275px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    background:  #528DC9;
+    border-radius: 10px;
+    padding: 35px 36px 0 42px;
+    border: 1px solid transparent;
+}
+
+.infor_minerals_operating_wrapper:hover {
+    border: 1px solid darkblue;
+}
+
+.infor_minerals_operating_logo{
+    margin-bottom: 20px;
+}
+
+.infor_minerals_operating_text h3{
+    color: #FFFFFF;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    line-height: 32px;
+    margin-bottom: 20px;
+}
+
+.infor_minerals_operating_text p {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/* <!-- локация место положения на карте --> */
+.location{
+    position: relative;
+    max-width: 1920px;
+}
+.location_map{
+    
+    background: url(images/karta.png);
+    max-width: 1920px;
+    /* max-height: 663px; */
+    width: 100%;
+  /* position: unset; */
+}
+
+.location_mark{
+    position: fixed;
+    width: 34px;
+    height: 56px;
+    top: 236px;
+    right: 714px;
+}
+
+.block {
+    position: absolute;
+    max-width: 693px;
+    width: 100%;
+    /* max-height: 445px; */
+    padding: 35px 45px 18px 45px;
+    top: 115px;
+    left: 160px; 
+    background: #ffffff;
+}
+
+.block h2 {
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    line-height: 56px;
+    margin-left: 0px;
+    color: #102441;
+}
+
+.block span{
+    margin-bottom: 30px;
+}
+.block span a{
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    line-height: 56px;
+    color: #2797FF;
+    border-bottom: 3px solid transparent;
+    text-decoration: none;
+}
+.block span a:hover{
+    border-bottom: 3px solid #2797FF;
+}
+   
+.block_text{
+    max-width: 572px;
+    max-height:173px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.block_text_1{
+    width: 312px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    order: 0;
+}
+.block_text_1::before {
+    content: "";
+    background-image: url(icons/location12.png);
+    width: 14px;
+    height: 21px;
+    display: inline-block;
+    /* flex-direction: row; */
+}
+.block_text h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #102441;
+}
+.block_text p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #7E8888;
+}
+
+
+
+.block_text_2{
+    width: 312px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    order: 1;
+}
+.block_text_2::before{
+    content: "";
+    background-image: url(icons/watch1.png);
+    width: 14px;
+    height: 21px;
+    display: inline-block;
+    /* flex-direction: row; */
+}
+
+.block_text_3{
+    width: 190px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    order: 2;
+}
+.block_text_3::before{
+    content: "";
+    background-image: url(icons/tel\ 2.png);
+    width: 14px;
+    height: 21px;
+    display: inline-block;
+    /* flex-direction: row; */
+}
+
+.block_text_4{
+    width: 190px;
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+}
+.block_text_4::before{
+    content: "";
+    background-image: url(icons/whatsapp\ \(2\)\ 1.png);
+    width: 14px;
+    height: 21px;
+    display: inline-block;
+    /* flex-direction: row; */
+}
+
+.block_text img {
+    width: 16px;
+    height: 21px;
+}
+
+.block hr {
+    max-width: 1920px;
+    height: 1px;
+    background: #DFDFDF;
+    left: 160px;
+    top: 6536px;
+    transform:rotate(-180deg);
+    margin-top: 12px;
+}
+
+.block_sochial{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    margin-top: 18px;
+}
+
+.block_sochial_icons{
+    display: flex;
+    flex-direction: row;
+}
+.block_sochial img{
+    width: 29px;
+    height: 29px;
+    background: linear-gradient(49.12deg, #FFDD55 6.62%, #FF543E 50.06%, #C837AB 93.5%);
+}
+
+.block_sochial i{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 29px;
+    height: 29px;
+    /* background: #B1B1B1; */
+}
+
+.block_sochial_btn {
+    width: 214px;
+    height: 56px;
+    background: #2797FF;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.block_sochial_btn button {
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background: none;
+    border: none;
+}
+
+
+
+/* формы */
+
+.form{
+    max-width: 1920px;
+    max-height: auto;
+    padding: 135px 160px 134px 160px;
+}
+
+.form_conteyner{
+    max-width: 1600px;
+    max-height: 460px;
+    display: flex;
+    gap: 61px;
+}
+.form_text{
+    max-width: 865px;
+    max-height: 460px;
+
+}
+
+.form_text h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 46px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.form_text p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+} 
+form {
+    max-width: 675px;
+    width: 100%;
+    max-height: 131px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    margin-top: 65px;
+}
+input  {
+    width: 330px;
+    height: 48px;
+    border-radius: 10px;
+    border: none;
+    padding-top: 10px;
+    padding-left: 19px;
+    
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #405267;;
+}
+
+textarea{
+    width: 674px;
+    height: 130px;
+    border-radius: 10px;
+    border: none;
+    /* resize: none; */
+    padding-top: 13px;
+    padding-left: 20px;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #405267;;
+}
+
+
+
+form p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+form p button {
+    display: flex;
+    flex-direction: row;
+}
+
+.form_btn{
+   
+    display: flex;
+    gap: 28px;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.btn{
+    width: 214px;
+    height: 56px;
+    background: #2797FF;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+   
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    }
+.form_btn p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    
+}
+
+/* footer */
+
+footer{
+    max-width: 1920px;
+    background: #1C1E21;
+    padding: 49px 160px 0px 153px;
+    position: relative;
+}
+
+.footer_conteyner{
+    max-width: 1524px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 67px;
+}
+
+.footer_logo{
+    max-width: 460px;
+    /* max-height: auto; */
+    display: flex;
+    flex-direction: column;
+}
+.footer_logo img {
+    width: 153px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.footer_logo p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.fotter_title{
+    max-width: 101px;
+    /* max-height: 222px; */
+    display: flex;
+    flex-direction: column;
+    margin-left: 141px;
+}
+
+.footer_navigathion_main{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    list-style: none;
+}
+
+.footer_navigathion_text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 45px;
+    list-style: none;
+    color: #FFFFFF;
+}
+
+
+.fotter_title a{
+    color: #FFFFFF;
+    text-decoration: none;
+    list-style: none;
+    border-bottom: 1px solid transparent;
+}
+.fotter_title a:hover{
+    color: #FFFFFF;
+    border-bottom: 1px solid blue;
+}
+
+
+
+.footer_navigathion{
+    max-width: 134px;
+    max-height: 222px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 186px;
+}
+
+.footer_navigathion  a {
+    color: #FFFFFF;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+}
+.footer_navigathion  a:hover{
+    color: #FFFFFF;
+    border-bottom: 1px solid blue;
+}
+
+.footer_contakts{
+    max-width: 366px;
+    max-height: 225px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 195px;    
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+.footer_contakts h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.footer_contakts p{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.footer_contakts img{
+    display: flex;
+    flex-direction: column;
+    width: 18px;
+    height: 25px;
+    color: #1D80EB;
+}
+
+.footer_image{
+    display: flex;
+    flex-direction: row;
+    gap: 17px;
+}
+.footer_contakts span {
+    display: flex;
+    justify-content: start;
+    gap: 19px;
+}
+
+
+.footer_line {
+    margin: auto;
+    max-width: 1170px;
+    height: 1px;
+    background: #353535;
+    border: none;
+    margin-bottom: 26px;
+}
+
+.footer_botom{
+    max-width: 1920px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
